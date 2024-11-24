@@ -20,7 +20,7 @@ test {
 
 task greetingTask() {
     doLast {
-        String nama = project.hasProperty('rizwanto') ? project.property('nama') : 'Gradle User'
+        String nama = project.hasProperty('nama') ? project.property('nama') : 'Gradle User'
         println "Hello, $nama! Welcome to Gradle World!"
     }
 }
